@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+#header {
+    background-color:#D3D3D3;
+    color:black;
+    text-align:center;
+    height:1cm;
+    
+    padding:1cm;
+}
+#left {
+    line-height:1cm;
+    background-color:#FA8072;
+    color:black;
+    height:12cm;
+    width:0.5cm;
+    float:left;
+    padding:1cm;
+}
+#right {
+    line-height:1cm;
+    background-color:#FA8072;
+    color:black;
+    height:12cm;
+    width:0.5cm;
+    float:right;
+    padding:1cm;
+}
+#section {
+   
+    float:left;
+    padding:2cm;
+}
+#footer {
+    background-color:#D3D3D3;
+    color:black;
+    clear:both;
+    height:0.5cm;
+    
+    text-align:center;
+    padding:1cm;
+}
+</style>
+   
+<body>
+<div id="header">
+<h1>Welcome</h1>
+
+</div>
+
+<div id="left">
+<br>
+
+</div>
+
+<div id="right">
+<br>
+</div>
+
+<div id="section">
+<h2>Bss Test Form</h2>
+<form method='POST' action=''> {% csrf_token%} 
+{{form.as_p}}
+        
+<input type='submit'>
+</form>
+</div>
+
+<div id="footer">
+copyright
+</div>
+ 
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+EnvironmentError: mysql_config not found
+
+Command python setup.py egg_info failed with error code 1 in /home/qvantel/Desktop/venv/build/MySQL-python
+Storing debug log for failure in /home/qvantel/.pip/pip.log
+(ven
+
+
